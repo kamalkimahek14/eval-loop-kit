@@ -6,9 +6,9 @@ totals, the train-minus-blind gap, flags overfitting, applies a stall rule, and 
 Python standard library only.
 
 Used on: my voice assistant's loop, where the blind pass rate rose from 47.7% to 77.3% (first vs latest
-round, each round on a fresh set of 44 asks), and the review loop for my portfolio site, kamal-mehta.com.
+round, each round on a fresh set of 44 asks), and the review loop for my portfolio site.
 
-Author: Kamal Mehta
+Author: Kamal Mehta · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
 
 ![How it works, step by step](docs/how-it-works.svg)
 
