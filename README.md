@@ -5,6 +5,9 @@ by a training panel and by a fresh blind panel with the same weighted rubric. Th
 totals, the train-minus-blind gap, flags overfitting, applies a stall rule, and writes a round table.
 Python standard library only.
 
+Used on: my voice assistant's loop, where the blind pass rate rose from 47.7% to 77.3% (first vs latest
+round, each round on a fresh set of 44 asks), and the review loop for my portfolio site, kamal-mehta.com.
+
 Author: Kamal Mehta
 
 ![How it works, step by step](docs/how-it-works.svg)
@@ -43,7 +46,7 @@ The judges can be people or models; the kit only reads their scores. The example
 
 ## How to run
 
-Needs Python 3.8 or newer. No packages to install.
+Needs Python 3.9 or newer. No packages to install.
 
 ```
 python -m unittest discover -s tests
@@ -83,4 +86,4 @@ the round 5 version is the one to keep.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+MIT License. Copyright (c) 2026 Kamal Mehta. See [LICENSE](LICENSE).
