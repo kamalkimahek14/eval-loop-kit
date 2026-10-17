@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 450" width="1000" height="450" role="img" aria-labelledby="title desc">
+<title id="title">eval-loop-kit flow</title>
+<desc id="desc">Each round a change is scored by a training panel and a fresh blind panel with the same weighted rubric; the gap, overfitting and stall rules decide whether to continue.</desc>
+<style>
+.t{fill:#e6edf3;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:15px;font-weight:600}
+.m{fill:#9da7b3;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:12.5px}
+.h{fill:#e6edf3;font-family:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;font-size:20px;font-weight:700}
+.b{fill:#161b22;stroke-width:2}
+.a{stroke:#9da7b3;stroke-width:2;fill:none;marker-end:url(#arr)}
+</style>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+<path d="M0,0 L10,5 L0,10 z" fill="#9da7b3"/></marker></defs>
+<rect width="1000" height="450" rx="14" fill="#0d1117"/>
+<text class="h" x="30" y="44" text-anchor="start">eval-loop-kit: one round</text>
+<g class=""><rect class="b" x="30" y="90" width="200" height="80" rx="10" stroke="#bc8cff"/>
+<text class="t" x="130.0" y="117.0" text-anchor="middle">Rubric</text>
+<text class="m" x="130.0" y="136.0" text-anchor="middle">weighted criteria</text>
+<text class="m" x="130.0" y="153.0" text-anchor="middle">fixed before round 1</text></g>
+<g class=""><rect class="b" x="290" y="90" width="200" height="80" rx="10" stroke="#58a6ff"/>
+<text class="t" x="390.0" y="117.0" text-anchor="middle">Change</text>
+<text class="m" x="390.0" y="136.0" text-anchor="middle">edit the thing</text>
+<text class="m" x="390.0" y="153.0" text-anchor="middle">under test</text></g>
+<path class="a" d="M230,130 L288,130"/>
+<g class=""><rect class="b" x="560" y="60" width="220" height="80" rx="10" stroke="#d29922"/>
+<text class="t" x="670.0" y="87.0" text-anchor="middle">Training panel</text>
+<text class="m" x="670.0" y="106.0" text-anchor="middle">same judges each round</text>
+<text class="m" x="670.0" y="123.0" text-anchor="middle">notes may guide edits</text></g>
+<g class=""><rect class="b" x="560" y="190" width="220" height="80" rx="10" stroke="#f85149"/>
+<text class="t" x="670.0" y="217.0" text-anchor="middle">Blind held-out panel</text>
+<text class="m" x="670.0" y="236.0" text-anchor="middle">fresh judges every round</text>
+<text class="m" x="670.0" y="253.0" text-anchor="middle">scores only, never notes</text></g>
+<path class="a" d="M490,120 L558,100"/>
+<path class="a" d="M490,140 L558,230"/>
+<g class=""><rect class="b" x="830" y="120" width="140" height="80" rx="10" stroke="#3fb950"/>
+<text class="t" x="900.0" y="147.0" text-anchor="middle">Weighted</text>
+<text class="m" x="900.0" y="166.0" text-anchor="middle">totals per</text>
+<text class="m" x="900.0" y="183.0" text-anchor="middle">panel</text></g>
+<path class="a" d="M780,100 L828,145"/>
+<path class="a" d="M780,230 L828,180"/>
+<g class=""><rect class="b" x="560" y="330" width="410" height="90" rx="10" stroke="#f85149"/>
+<text class="t" x="765.0" y="353.0" text-anchor="middle">Rules</text>
+<text class="m" x="765.0" y="372.0" text-anchor="middle">gap = train − blind</text>
+<text class="m" x="765.0" y="389.0" text-anchor="middle">overfit: train up, blind flat or down</text>
+<text class="m" x="765.0" y="406.0" text-anchor="middle">stall: no blind gain for N rounds → stop</text></g>
+<path class="a" d="M900,200 L900,328"/>
+<g class=""><rect class="b" x="290" y="340" width="200" height="70" rx="10" stroke="#3fb950"/>
+<text class="t" x="390.0" y="371.0" text-anchor="middle">Round table</text>
+<text class="m" x="390.0" y="390.0" text-anchor="middle">round-table.md</text></g>
+<path class="a" d="M558,375 L492,375"/>
+<path class="a" d="M390,340 L390,172"/><text class="m" x="290" y="270" text-anchor="middle">next round (unless stalled)</text>
+</svg>

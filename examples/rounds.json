@@ -1,0 +1,563 @@
+{
+ "about": "Invented example data: 9 rounds of edits to an answer template, scored by a fixed training panel (T1-T3) and a fresh blind panel each round (Bn-1 to Bn-3). Scores are 0-100 per criterion.",
+ "rounds": [
+  {
+   "round": 0,
+   "change": "baseline",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 70,
+      "evidence": 66,
+      "relevance": 69,
+      "tone": 67
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 72,
+      "evidence": 68,
+      "relevance": 71,
+      "tone": 69
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 74,
+      "evidence": 70,
+      "relevance": 73,
+      "tone": 71
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B0-1",
+     "scores": {
+      "clarity": 68,
+      "evidence": 64,
+      "relevance": 67,
+      "tone": 65
+     }
+    },
+    {
+     "judge": "B0-2",
+     "scores": {
+      "clarity": 70,
+      "evidence": 66,
+      "relevance": 69,
+      "tone": 67
+     }
+    },
+    {
+     "judge": "B0-3",
+     "scores": {
+      "clarity": 72,
+      "evidence": 68,
+      "relevance": 71,
+      "tone": 69
+     }
+    }
+   ]
+  },
+  {
+   "round": 1,
+   "change": "lead with the outcome",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 74,
+      "evidence": 70,
+      "relevance": 73,
+      "tone": 71
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 76,
+      "evidence": 72,
+      "relevance": 75,
+      "tone": 73
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 78,
+      "evidence": 74,
+      "relevance": 77,
+      "tone": 75
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B1-1",
+     "scores": {
+      "clarity": 72,
+      "evidence": 68,
+      "relevance": 71,
+      "tone": 69
+     }
+    },
+    {
+     "judge": "B1-2",
+     "scores": {
+      "clarity": 74,
+      "evidence": 70,
+      "relevance": 73,
+      "tone": 71
+     }
+    },
+    {
+     "judge": "B1-3",
+     "scores": {
+      "clarity": 76,
+      "evidence": 72,
+      "relevance": 75,
+      "tone": 73
+     }
+    }
+   ]
+  },
+  {
+   "round": 2,
+   "change": "one idea per sentence",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 78,
+      "evidence": 74,
+      "relevance": 77,
+      "tone": 75
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 80,
+      "evidence": 76,
+      "relevance": 79,
+      "tone": 77
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 82,
+      "evidence": 78,
+      "relevance": 81,
+      "tone": 79
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B2-1",
+     "scores": {
+      "clarity": 75,
+      "evidence": 71,
+      "relevance": 74,
+      "tone": 72
+     }
+    },
+    {
+     "judge": "B2-2",
+     "scores": {
+      "clarity": 77,
+      "evidence": 73,
+      "relevance": 76,
+      "tone": 74
+     }
+    },
+    {
+     "judge": "B2-3",
+     "scores": {
+      "clarity": 79,
+      "evidence": 75,
+      "relevance": 78,
+      "tone": 76
+     }
+    }
+   ]
+  },
+  {
+   "round": 3,
+   "change": "add terms the training judges asked for",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 80,
+      "evidence": 76,
+      "relevance": 79,
+      "tone": 77
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 82,
+      "evidence": 78,
+      "relevance": 81,
+      "tone": 79
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 84,
+      "evidence": 80,
+      "relevance": 83,
+      "tone": 81
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B3-1",
+     "scores": {
+      "clarity": 75,
+      "evidence": 71,
+      "relevance": 74,
+      "tone": 72
+     }
+    },
+    {
+     "judge": "B3-2",
+     "scores": {
+      "clarity": 77,
+      "evidence": 73,
+      "relevance": 76,
+      "tone": 74
+     }
+    },
+    {
+     "judge": "B3-3",
+     "scores": {
+      "clarity": 79,
+      "evidence": 75,
+      "relevance": 78,
+      "tone": 76
+     }
+    }
+   ]
+  },
+  {
+   "round": 4,
+   "change": "more of the same terms",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 82,
+      "evidence": 78,
+      "relevance": 81,
+      "tone": 79
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 84,
+      "evidence": 80,
+      "relevance": 83,
+      "tone": 81
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 86,
+      "evidence": 82,
+      "relevance": 85,
+      "tone": 83
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B4-1",
+     "scores": {
+      "clarity": 74,
+      "evidence": 70,
+      "relevance": 73,
+      "tone": 71
+     }
+    },
+    {
+     "judge": "B4-2",
+     "scores": {
+      "clarity": 76,
+      "evidence": 72,
+      "relevance": 75,
+      "tone": 73
+     }
+    },
+    {
+     "judge": "B4-3",
+     "scores": {
+      "clarity": 78,
+      "evidence": 74,
+      "relevance": 77,
+      "tone": 75
+     }
+    }
+   ]
+  },
+  {
+   "round": 5,
+   "change": "revert round 4, keep round 3 order",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 81,
+      "evidence": 77,
+      "relevance": 80,
+      "tone": 78
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 83,
+      "evidence": 79,
+      "relevance": 82,
+      "tone": 80
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 85,
+      "evidence": 81,
+      "relevance": 84,
+      "tone": 82
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B5-1",
+     "scores": {
+      "clarity": 77,
+      "evidence": 73,
+      "relevance": 76,
+      "tone": 74
+     }
+    },
+    {
+     "judge": "B5-2",
+     "scores": {
+      "clarity": 79,
+      "evidence": 75,
+      "relevance": 78,
+      "tone": 76
+     }
+    },
+    {
+     "judge": "B5-3",
+     "scores": {
+      "clarity": 81,
+      "evidence": 77,
+      "relevance": 80,
+      "tone": 78
+     }
+    }
+   ]
+  },
+  {
+   "round": 6,
+   "change": "shorter closing line",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 81,
+      "evidence": 77,
+      "relevance": 80,
+      "tone": 78
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 83,
+      "evidence": 79,
+      "relevance": 82,
+      "tone": 80
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 85,
+      "evidence": 81,
+      "relevance": 84,
+      "tone": 82
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B6-1",
+     "scores": {
+      "clarity": 77,
+      "evidence": 73,
+      "relevance": 76,
+      "tone": 74
+     }
+    },
+    {
+     "judge": "B6-2",
+     "scores": {
+      "clarity": 79,
+      "evidence": 75,
+      "relevance": 78,
+      "tone": 76
+     }
+    },
+    {
+     "judge": "B6-3",
+     "scores": {
+      "clarity": 81,
+      "evidence": 77,
+      "relevance": 80,
+      "tone": 78
+     }
+    }
+   ]
+  },
+  {
+   "round": 7,
+   "change": "swap example order",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 81,
+      "evidence": 77,
+      "relevance": 80,
+      "tone": 78
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 83,
+      "evidence": 79,
+      "relevance": 82,
+      "tone": 80
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 85,
+      "evidence": 81,
+      "relevance": 84,
+      "tone": 82
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B7-1",
+     "scores": {
+      "clarity": 76,
+      "evidence": 72,
+      "relevance": 75,
+      "tone": 73
+     }
+    },
+    {
+     "judge": "B7-2",
+     "scores": {
+      "clarity": 78,
+      "evidence": 74,
+      "relevance": 77,
+      "tone": 75
+     }
+    },
+    {
+     "judge": "B7-3",
+     "scores": {
+      "clarity": 80,
+      "evidence": 76,
+      "relevance": 79,
+      "tone": 77
+     }
+    }
+   ]
+  },
+  {
+   "round": 8,
+   "change": "reword the opening",
+   "train": [
+    {
+     "judge": "T1",
+     "scores": {
+      "clarity": 82,
+      "evidence": 78,
+      "relevance": 81,
+      "tone": 79
+     }
+    },
+    {
+     "judge": "T2",
+     "scores": {
+      "clarity": 84,
+      "evidence": 80,
+      "relevance": 83,
+      "tone": 81
+     }
+    },
+    {
+     "judge": "T3",
+     "scores": {
+      "clarity": 86,
+      "evidence": 82,
+      "relevance": 85,
+      "tone": 83
+     }
+    }
+   ],
+   "blind": [
+    {
+     "judge": "B8-1",
+     "scores": {
+      "clarity": 77,
+      "evidence": 73,
+      "relevance": 76,
+      "tone": 74
+     }
+    },
+    {
+     "judge": "B8-2",
+     "scores": {
+      "clarity": 79,
+      "evidence": 75,
+      "relevance": 78,
+      "tone": 76
+     }
+    },
+    {
+     "judge": "B8-3",
+     "scores": {
+      "clarity": 81,
+      "evidence": 77,
+      "relevance": 80,
+      "tone": 78
+     }
+    }
+   ]
+  }
+ ]
+}

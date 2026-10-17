@@ -1,0 +1,9 @@
+{
+  "about": "Example rubric for an answer template. Weights sum to 1. Fix the rubric before round 1 and keep it for every round.",
+  "criteria": [
+    { "name": "clarity",   "weight": 0.30, "anchors": "90+: one read is enough; 70: a second read needed; below 50: the point is lost" },
+    { "name": "evidence",  "weight": 0.30, "anchors": "90+: every claim has a specific fact or number; 70: most do; below 50: claims without support" },
+    { "name": "relevance", "weight": 0.25, "anchors": "90+: answers exactly what was asked; 70: some drift; below 50: answers another question" },
+    { "name": "tone",      "weight": 0.15, "anchors": "90+: plain and direct; 70: some filler; below 50: hype or vague praise" }
+  ]
+}
