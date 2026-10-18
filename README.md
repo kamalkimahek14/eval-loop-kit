@@ -7,7 +7,7 @@ Python standard library only.
 
 Used on: my voice assistant's loop, where the held-out pass rate rose from 47.7% to 77.3% (21 → 34 of 44
 test prompts, first vs latest round, a new set each round), the review loop for my portfolio site, and my
-resume harness (parse score 85.6% → 100% across 5 parsers; match scored on 53 job posts).
+resume harness (parse score 85.6% → 100% across 4 PDF extractors and a port of OpenResume's parser; match scored on 53 job posts).
 
 Author: Kamal Mehta, built with AI-assisted coding to my specs · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
 
