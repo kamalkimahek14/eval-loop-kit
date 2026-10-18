@@ -5,9 +5,9 @@ by a training panel and by a fresh blind panel with the same weighted rubric. Th
 totals, the train-minus-blind gap, flags overfitting, applies a stall rule, and writes a round table.
 Python standard library only.
 
-Used on: my voice assistant's loop, where the blind pass rate rose from 47.7% to 77.3% (first vs latest
-round, each round on a fresh set of 44 asks), the review loop for my portfolio site, and my resume
-harness (parse score 85.6% → 100% on 53 job posts).
+Used on: my voice assistant's loop, where the held-out pass rate rose from 47.7% to 77.3% (21 → 34 of 44
+test prompts, first vs latest round, a new set each round), the review loop for my portfolio site, and my
+resume harness (parse score 85.6% → 100% across 5 parsers; match scored on 53 job posts).
 
 Author: Kamal Mehta · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
 
