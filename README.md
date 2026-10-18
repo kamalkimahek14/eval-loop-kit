@@ -5,8 +5,8 @@ by a training panel (dev judges) and by a fresh blind panel (held-out judges) wi
 totals, the train-minus-blind gap, flags overfitting, applies a stall rule, and writes a round table.
 Python standard library only.
 
-Used on: my voice assistant's loop, where the held-out pass rate rose from 47.7% to 77.3% (21 → 34 of 44
-test prompts, round 22 to the best round, 25, a new set each round; rounds 26 and 27 scored 70.5% and 65.9%), the review loop for my portfolio site, and my
+Used on: my voice assistant's loop, where the held-out pass rate went from 47.7% in round 22 to 71.2% averaged over rounds
+25–27 (best 77.3%, latest 65.9%; a fresh 44-prompt set each round, about ±14 points per round), the review loop for my portfolio site, and my
 resume harness (parse score 85.6% → 100% across 4 PDF extractors and a port of OpenResume's parser; match scored on 53 job posts).
 
 Author: Kamal Mehta, built with AI-assisted coding to my specs · [kamal-mehta.com](https://kamal-mehta.com/?r=github)
