@@ -1,7 +1,7 @@
 # eval-loop-kit
 
 A small kit for self-improvement loops with blind held-out evaluation. Each round, one change is scored
-by a training panel and by a fresh blind panel with the same weighted rubric. The kit computes weighted
+by a training panel (dev judges) and by a fresh blind panel (held-out judges) with the same weighted rubric. The kit computes weighted
 totals, the train-minus-blind gap, flags overfitting, applies a stall rule, and writes a round table.
 Python standard library only.
 
